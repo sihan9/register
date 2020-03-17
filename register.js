@@ -80,7 +80,7 @@ $(function(){
     myname();
     myphone();
     mypwd();
-    mycode();
+    mynum();
   })
   $code.click(function(){
     var timer,
