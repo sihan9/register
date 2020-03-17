@@ -1,1 +1,0 @@
-$(function(){var n=$("#name"),m=($("#phone"),$("#pwd"),$("#num"),$("#msgname")),o=($("#msgphone"),$("#msgpwd"),$("#msgnum"),$("button"));n.blur(function(){return""===n.val()?(m.html("用户名不能为空！"),!1):""!==n.val()?(m.html(""),!0):void 0}),o.click(function(){console.log("ddd")})});
