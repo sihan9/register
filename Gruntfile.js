@@ -7,14 +7,14 @@ module.exports = function (grunt) {
       },
       files:{
         src:'./index.html',
-        dest:'index.html'
+        dest:'dest/index.html'
       }
     },
     cssmin:{
-      'register.css':'register.css'
+      'dest/register.css':'register.css'
     },
     uglify:{
-      'register.js':'register.js'
+      'dest/register.js':'register.js'
     }
   });
 
