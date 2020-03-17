@@ -7,7 +7,7 @@ module.exports = function (grunt) {
       },
       files:{
         src:'./index.html',
-        dest:'index.html'
+        dest:'ndex.html'
       }
     },
     cssmin:{
@@ -22,6 +22,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('a', ['cssmin','htmlmin','uglify']);
+  grunt.registerTask('lint', ['cssmin','htmlmin','uglify']);
 };
 
