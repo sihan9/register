@@ -7,7 +7,7 @@ module.exports = function (grunt) {
       },
       files:{
         src:'./index.html',
-        dest:'ndex.html'
+        dest:'index.html'
       }
     },
     cssmin:{
