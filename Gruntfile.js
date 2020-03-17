@@ -9,10 +9,10 @@ module.exports = function (grunt) {
         src:'./index.html',
         dest:'index.html'
       }
-    }
+    },
     cssmin:{
       'register.css':'register.css'
-    }
+    },
     uglify:{
       'register.js':'register.js'
     }
@@ -22,6 +22,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('lint', ['cssmin','htmlmin','uglify']);
+  grunt.registerTask('a', ['cssmin','htmlmin','uglify']);
 };
 
